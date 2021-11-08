@@ -1,0 +1,22 @@
+1 creation du repository en local
+2 creation du compte github/gitlab etc..
+3 creation d'un repository sur le serveur distant
+4 lier le repository distant et le repository local avec la commande :
+git remote add origin master url du repository
+5 git add . => pour une première validation des modifications
+6 git commit -m "message du commit" => validation des modifications
+7 git push -u origin master
+
+
+
+le repo distant existe déjà
+1 on utilise la commande git clone suivie de l'url du repository
+2 - 3 - 4 pas besoin quand on fait un clone
+5 git add . => pour une première validation des modifications
+6 git commit -m "message du commit" => validation des modifications
+7 git pull => pour récupérer potentielles modifications que d'autres personnes auraient fait
+8 git push -u origin master
+
+//////////////////
+
+git log => pour voir l'historique des modifications
