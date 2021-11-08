@@ -20,3 +20,15 @@ le repo distant existe déjà
 //////////////////
 
 git log => pour voir l'historique des modifications
+git checkout -b nom_de_la_branche => pour créer une branche et basculer dessus
+git branch -d inscription => supprimer une branche
+
+git merge => pour fusionner plusieurs branches
+
+Exercice :
+créer une branche pour la nouvelle fonctionnalité connexion
+dans cette branche créer un fichier connexion.html
+mettre un formulaire de connexion dedans
+valider les modifications
+fusionner la branche connnexion à la branche master
+et envoyer vers le serveur github
